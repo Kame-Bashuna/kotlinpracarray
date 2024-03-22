@@ -2,7 +2,7 @@ fun main() {
     school("akirachix","highway","Hope","Moleni")
     println(word(30,30,10))
     numbers()
-
+println(school("Maranda","Nairobi","AkiraChix") .contentToString())
 
 }
 //no1
@@ -28,3 +28,17 @@ fun words(words:Array<String>){
     println(nam.contentToString())
 }
 
+fun school(name1:String, name2:String,name3:String):Array<String>{
+    var schools = arrayOf("Maranda","Nairobi","Akirachix")
+    return schools
+}
+fun city (cities:Array<String>){
+    cities.forEachIndexed{index,s->
+        if (index in arrayOf(0,1,2,3))
+
+    }
+    println(capitalize())
+
+
+
+}
